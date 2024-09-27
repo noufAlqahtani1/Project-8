@@ -2,10 +2,12 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:onze_cofe_project/screens/welcome_screen/welcome_screen.dart';
+import 'package:onze_cofe_project/setup/setup_init.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  setup();
   await Supabase.initialize(
     url: "https://atlxmjlltfikucaizoeg.supabase.co",
     anonKey:
