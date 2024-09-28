@@ -5,9 +5,11 @@ class CartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+     appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.white),
         centerTitle: true,
+        leading: IconButton(
+            onPressed: () {}, icon: Icon(Icons.arrow_back_ios_new_rounded)),
         title: Text(
           "Cart",
           textAlign: TextAlign.center,
