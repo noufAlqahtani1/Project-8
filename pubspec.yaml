@@ -22,4 +22,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/download.png
+    - assets/coffee_cup.png
+    - assets/star.png
+    - assets/cart.png
+    - assets/dot.png
