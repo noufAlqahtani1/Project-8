@@ -59,6 +59,7 @@ class CartItem extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Column(
+                  //
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     IconButton(
